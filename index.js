@@ -24,7 +24,7 @@ function nextSequence() {
 //***
 
 //****
-document.querySelector(document).addEventListener("touchstart", function() {
+document.querySelector("body").addEventListener("touchstart", function() {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
   playSound(userChosenColour);
